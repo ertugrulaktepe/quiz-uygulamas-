@@ -1,1 +1,36 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.quiz-form {
+  background: #ffff;
+  border-radius: 15%;
+  height: 350px;
+  width: 350px;
+  padding: 55px;
+}
+
+.quiz-form h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 35px;
+  width: 100%;
+}
+
+.quiz-form .answer-section button {
+  margin-top: 20px;
+  padding: 5px 13px;
+  margin-left: 5px;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background: blueviolet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

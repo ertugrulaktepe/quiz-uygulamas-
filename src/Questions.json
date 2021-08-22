@@ -9,21 +9,39 @@
         ]
     },
     {    "id":2,
-        "prompt":"Bir Sepette 10 yumurta var altı çıktı kaç kaldı",
+        "prompt":"Romen Rakamında Hangi Sayı Yoktur?",
         "answerOptions":[
-            {"answer":"4","isCorrect": false},
             {"answer":"0","isCorrect": true},
-            {"answer":"15","isCorrect": false},
-            {"answer":"9","isCorrect": false}
+            {"answer":"50","isCorrect": false},
+            {"answer":"100","isCorrect": false},
+            {"answer":"1000","isCorrect": false}
         ]
     },
     {  "id":3,
-        "prompt":"Doğru cevab bursa",
+        "prompt":"Bir Gün Kaç Saniyedir?",
         "answerOptions":[
-            {"answer":"C","isCorrect": false},
-            {"answer":"B","isCorrect": true},
-            {"answer":"D","isCorrect": false},
-            {"answer":"A","isCorrect": false}
+            {"answer":"86000","isCorrect": false},
+            {"answer":"88600","isCorrect": false},
+            {"answer":"86400","isCorrect": true},
+            {"answer":"84800","isCorrect": false}
+        ]
+    },
+    {  "id":4,
+        "prompt":"Üç Büyük Dince Kutsal Sayılan Şehir Hangisidir?",
+        "answerOptions":[
+            {"answer":"Mekke","isCorrect": false},
+            {"answer":"Kudüs","isCorrect": true},
+            {"answer":"Roma","isCorrect": false},
+            {"answer":"İstanbul","isCorrect": false}
+        ]
+    },
+    {  "id":5,
+        "prompt":"Hangi İlimizde Demiryolu Yoktur?",
+        "answerOptions":[
+            {"answer":"Batman","isCorrect": false},
+            {"answer":"Kütahya","isCorrect": true},
+            {"answer":"Aydın","isCorrect": false},
+            {"answer":"Muğla","isCorrect": true}
         ]
     }
 ]

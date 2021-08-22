@@ -16,7 +16,7 @@ const Quiz = () => {
 
     return (
         <div className="quiz-form">
-            <h4>{score}/3</h4>
+            <h4>{score}/5</h4>
         <h1 className="question-text">{Questions[currQuestions].prompt}</h1>
         <div className="answer-section">
             {Questions[currQuestions].answerOptions.map((answerOptions)=>(

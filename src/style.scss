@@ -1,0 +1,30 @@
+.quiz-form{
+   background: #ffff;
+   border-radius: 15%;
+   height: 350px;
+   width: 350px;
+   padding: 55px;
+   h1{
+       font-size: 24px;
+       font-weight: 700;
+       margin-top: 35px;
+       width: 100%;
+   }
+   .answer-section{
+       button{
+          margin-top: 20px;
+          padding: 5px 13px;
+          margin-left: 5px;
+
+       }
+   }
+}
+.App{
+    text-align: center;
+    height: 100vh;
+    background: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
