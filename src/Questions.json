@@ -1,0 +1,29 @@
+[
+    {   "id":1,
+        "prompt":"2x2 kaç eder",
+        "answerOptions":[
+            {"answer":"2","isCorrect": false},
+            {"answer":"4","isCorrect": true},
+            {"answer":"6","isCorrect": false},
+            {"answer":"8","isCorrect": false}
+        ]
+    },
+    {    "id":2,
+        "prompt":"Bir Sepette 10 yumurta var altı çıktı kaç kaldı",
+        "answerOptions":[
+            {"answer":"4","isCorrect": false},
+            {"answer":"0","isCorrect": true},
+            {"answer":"15","isCorrect": false},
+            {"answer":"9","isCorrect": false}
+        ]
+    },
+    {  "id":3,
+        "prompt":"Doğru cevab bursa",
+        "answerOptions":[
+            {"answer":"C","isCorrect": false},
+            {"answer":"B","isCorrect": true},
+            {"answer":"D","isCorrect": false},
+            {"answer":"A","isCorrect": false}
+        ]
+    }
+]
