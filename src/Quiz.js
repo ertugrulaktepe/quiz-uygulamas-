@@ -1,11 +1,14 @@
 import React, { useState } from 'react'
-import End from './End'
+import { useHistory } from 'react-router-dom'
 import Questions from './Questions.json'
 
-const Quiz = ({pageWiev, setPageWiev}) => {
+const Quiz = () => {
     const [currQuestions,setCurrQuestions] = useState(0)
     const [score,Setscore] = useState(1)
-   
+    const history = useHistory()
+    const finishQuiz = () =>{
+        history.push("/finish")
+    }
     
     const nextQuestions = (isCorrect)=>{
       if(isCorrect === true){
@@ -17,9 +20,7 @@ const Quiz = ({pageWiev, setPageWiev}) => {
     const skipQuestions = ()=>{
         setCurrQuestions(currQuestions +1)
     }
-    const finish = ()=>{
-        setPageWiev("selam")
-    }
+    
    
     return (
         <div className="quiz-form">
@@ -31,7 +32,7 @@ const Quiz = ({pageWiev, setPageWiev}) => {
             ))}
         </div>
         {currQuestions  === Questions.length -1 ? (
-            <button onClick={finish} className="btn btn-danger">Finish Quiz</button>
+            <button onClick={finishQuiz} className="btn btn-danger">Finish Quiz</button>
         ):(
             <button className="btn btn-warning" onClick={skipQuestions}>Next questions</button>
         )}
