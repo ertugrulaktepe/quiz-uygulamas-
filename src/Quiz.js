@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import End from './End'
 import Questions from './Questions.json'
 
-const Quiz = () => {
+const Quiz = ({pageWiev, setPageWiev}) => {
     const [currQuestions,setCurrQuestions] = useState(0)
     const [score,Setscore] = useState(1)
    
@@ -17,6 +17,9 @@ const Quiz = () => {
     const skipQuestions = ()=>{
         setCurrQuestions(currQuestions +1)
     }
+    const finish = ()=>{
+        setPageWiev("selam")
+    }
    
     return (
         <div className="quiz-form">
@@ -28,7 +31,7 @@ const Quiz = () => {
             ))}
         </div>
         {currQuestions  === Questions.length -1 ? (
-            <button className="btn btn-danger">Finish Quiz</button>
+            <button onClick={finish} className="btn btn-danger">Finish Quiz</button>
         ):(
             <button className="btn btn-warning" onClick={skipQuestions}>Next questions</button>
         )}

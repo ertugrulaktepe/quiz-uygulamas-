@@ -19,6 +19,15 @@
   margin-left: 5px;
 }
 
+.quiz-form .btn-warning {
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.quiz-form .btn-danger {
+  margin-top: 15px;
+}
+
 .App {
   text-align: center;
   height: 100vh;
