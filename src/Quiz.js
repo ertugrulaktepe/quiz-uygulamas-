@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
+import End from './End'
 import Questions from './Questions.json'
 
 const Quiz = () => {
     const [currQuestions,setCurrQuestions] = useState(0)
     const [score,Setscore] = useState(1)
+   
     
     const nextQuestions = (isCorrect)=>{
       if(isCorrect === true){
@@ -12,8 +14,10 @@ const Quiz = () => {
       }
       
     }
+    const skipQuestions = ()=>{
+        setCurrQuestions(currQuestions +1)
+    }
    
-
     return (
         <div className="quiz-form">
             <h4>{score}/5</h4>
@@ -23,8 +27,12 @@ const Quiz = () => {
                 <button onClick={()=>nextQuestions(answerOptions.isCorrect)} className="btn btn-success">{answerOptions.answer}</button>
             ))}
         </div>
-        
-        </div>
+        {currQuestions  === Questions.length -1 ? (
+            <button className="btn btn-danger">Finish Quiz</button>
+        ):(
+            <button className="btn btn-warning" onClick={skipQuestions}>Next questions</button>
+        )}
+     </div>
      
 
     )
