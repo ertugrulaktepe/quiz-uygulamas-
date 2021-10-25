@@ -42,4 +42,8 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+.score h1 {
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

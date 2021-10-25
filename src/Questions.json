@@ -3,7 +3,7 @@
         "prompt":"2x2 kaç eder",
         "answerOptions":[
             {"answer":"2","isCorrect": false},
-            {"answer":"4","isCorrect": true},
+            {"answer":"4","isCorrect": true,"point":25},
             {"answer":"6","isCorrect": false},
             {"answer":"8","isCorrect": false}
         ]
@@ -11,7 +11,7 @@
     {    "id":2,
         "prompt":"Romen Rakamında Hangi Sayı Yoktur?",
         "answerOptions":[
-            {"answer":"0","isCorrect": true},
+            {"answer":"0","isCorrect": true,"point":25},
             {"answer":"50","isCorrect": false},
             {"answer":"100","isCorrect": false},
             {"answer":"1000","isCorrect": false}
@@ -22,7 +22,7 @@
         "answerOptions":[
             {"answer":"86000","isCorrect": false},
             {"answer":"88600","isCorrect": false},
-            {"answer":"86400","isCorrect": true},
+            {"answer":"86400","isCorrect": true,"point":25},
             {"answer":"84800","isCorrect": false}
         ]
     },
@@ -30,7 +30,7 @@
         "prompt":"Üç Büyük Dince Kutsal Sayılan Şehir Hangisidir?",
         "answerOptions":[
             {"answer":"Mekke","isCorrect": false},
-            {"answer":"Kudüs","isCorrect": true},
+            {"answer":"Kudüs","isCorrect": true,"point":25},
             {"answer":"Roma","isCorrect": false},
             {"answer":"İstanbul","isCorrect": false}
         ]
@@ -39,9 +39,9 @@
         "prompt":"Hangi İlimizde Demiryolu Yoktur?",
         "answerOptions":[
             {"answer":"Batman","isCorrect": false},
-            {"answer":"Kütahya","isCorrect": true},
+            {"answer":"Kütahya","isCorrect": false},
             {"answer":"Aydın","isCorrect": false},
-            {"answer":"Muğla","isCorrect": true}
+            {"answer":"Muğla","isCorrect": true,"point":25}
         ]
     }
 ]
